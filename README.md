@@ -1,11 +1,11 @@
-# ✅ Todo App
+#  Todo App
 
 A full-stack Todo application built with **React**, **Express**, **PostgreSQL**, and **Prisma** — created as an onboarding project to learn the stack before contributing to real issues.
 
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## ✨ Features
+##  Features
 
 - ➕ Add new todos
 - 📋 View all todos
@@ -13,7 +13,7 @@ A full-stack Todo application built with **React**, **Express**, **PostgreSQL**,
 - 🗑️ Delete todos
 - 💾 Data persists in a real PostgreSQL database — refresh the page and nothing disappears
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                          |
 |------------|--------------------------------------|
@@ -22,7 +22,7 @@ A full-stack Todo application built with **React**, **Express**, **PostgreSQL**,
 | Database   | PostgreSQL (via Docker)             |
 | ORM        | Prisma (v7)                         |
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌──────────────┐   HTTP/REST    ┌──────────────┐   SQL    ┌──────────────┐
@@ -33,7 +33,7 @@ A full-stack Todo application built with **React**, **Express**, **PostgreSQL**,
 
 The frontend never talks to the database directly — every request goes through the Express API, which uses Prisma to run safe, type-checked queries against Postgres.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 todo-app/
@@ -61,7 +61,7 @@ todo-app/
 | PATCH  | `/todos/:id`    | Update a todo             |
 | DELETE | `/todos/:id`    | Delete a todo             |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js
@@ -103,6 +103,6 @@ npm run dev
 
 Open the URL it prints (usually `http://localhost:5173`).
 
-## 📄 License
+##  License
 
 MIT
