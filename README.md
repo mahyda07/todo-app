@@ -84,7 +84,7 @@ npx prisma migrate dev
 
 Create a `.env` file in `backend/`:
 ```
-DATABASE_URL="postgresql://todo_user:todo_password@localhost:5432/todo_db?schema=public"
+DATABASE_URL="postgresql://todo_user:todo_password@localhost:5433/todo_db?schema=public"
 PORT=5000
 ```
 
