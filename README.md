@@ -51,7 +51,7 @@ todo-app/
 └── README.md
 ```
 
-## 🔌 API Routes
+##  API Routes
 
 | Method | Endpoint        | Description              |
 |--------|-----------------|---------------------------|
